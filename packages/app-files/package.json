@@ -1,0 +1,17 @@
+{
+  "name": "app-files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ui-files": "workspace:*",
+    "ui-npmignore": "workspace:*"
+  },
+  "files": ["dist.js"],
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

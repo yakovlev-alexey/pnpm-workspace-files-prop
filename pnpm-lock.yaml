@@ -1,0 +1,28 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers: {}
+
+  packages/app-files:
+    specifiers:
+      ui-files: workspace:*
+      ui-npmignore: workspace:*
+    dependencies:
+      ui-files: link:../ui-files
+      ui-npmignore: link:../ui-npmignore
+
+  packages/app-npmignore:
+    specifiers:
+      ui-files: workspace:*
+      ui-npmignore: workspace:*
+    dependencies:
+      ui-files: link:../ui-files
+      ui-npmignore: link:../ui-npmignore
+
+  packages/ui-files:
+    specifiers: {}
+
+  packages/ui-npmignore:
+    specifiers: {}
